@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void toastMsg(String msg) {
+    public void toastMsg(String msg) { // creates a pop up message
         Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show(); //displays message
+        toast.show(); // displays message
     }
 
     public void onClick(View view) {
